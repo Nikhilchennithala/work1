@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>Personel account page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper">
+                    <a href="#">Home</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="about.html">Gallery</a>
+                </div>
+
+                <div class="nav-link-wrapper">
+                    <a href="about.html">Contacts</a>
+                </div>
+            </div>
+
+            <div class="right-side">
+                <div class="brand">
+                    <div>Fishingland
+                    <a class=login href="login.html">login</a></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero">
+            <div class="form-box" id="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" class="toggle-btn" onclick="login()">Login</button>
+                    <button type="button" class="toggle-btn" onclick="register()">Register</button>
+                </div>
+                
+                <div style="font-family: sans-serif;">
+					<form id="login" class="input-group">
+                        <h1>Login</h1>
+                        <div class="input-container">
+                            <i class="fa fa-user icon"></i>
+                        <input type="text" class="input-field" placeholder="User Id" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-key icon"></i>
+                        <input type="password" class="input-field" placeholder="Password" required>
+                        </div>
+						<input type="checkbox" class="check-box"><span>Remember Password</span>
+                        <button type="submit" class="submit-btn">Login</button>
+                        
+                        <div class="msg">
+                            <br> <h5><a href="#"> Forget your password ? </a></h5>
+                        </div>
+
+					</form>
+					
+					<form id="register" class="input-group">
+                        <h1>Registration</h1>
+                        <div class="input-container">
+                            <i class="fa fa-user icon"></i>
+                        <input type="text" class="input-field" placeholder="Name" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-location-arrow icon"></i>
+                        <input type="text" class="input-field" placeholder="Place" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-mobile icon"></i>
+                        <input type="text" class="input-field" placeholder="Phone no." required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-envelope icon"></i>
+                        <input type="text" class="input-field" placeholder="Email Id" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-user icon"></i>
+                        <input type="email" class="input-field" placeholder="Create User Id" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-lock icon"></i>
+                        <input type="password" class="input-field" placeholder="Create Password" required>
+                        </div>
+                        <div class="input-container">
+                            <i class="fa fa-lock icon"></i>
+                        <input type="password" class="input-field" placeholder="Confirm Password" required>
+                        </div>
+						<input type="checkbox" class="check-box"><span class="span">I agree to the terms and conditions</span>
+                        <button type="submit" class="submit-btn">Register</button>
+                    </form>
+                </div>
+					
+				</div>
+			</div>
+
+    </div>
+    
+    <footer>
+        <div class="container wrap">
+            <div class="row">
+
+                <div class="column">
+                    <div class="footer-widget about-widget">
+                        <h2 class="widget-title">About</h2>
+
+                        <p>Fishyland is world which will give all the details aboutb Fishinglandand also which 
+                            will give the information about fishing accessories and shopes
+                        </p>
+
+                        <div class="cards">
+                            <i class="fab fa-cc-mastercard"></i>
+                            <i class="fab fa-cc-paypal"></i>
+                            <i class="fab fa-cc-amex"></i>
+                            <i class="fab fa-cc-visa"></i>
+                            <i class="fab fa-cc-discover"></i>
+                        </div>
+
+                        <p><span><i class="fa fa-lock"></i></span>Secure online payment</p>
+                    </div>
+                </div>
+
+                <div class="column">
+                   <div class="footer-widget categories-widget">
+                    <h2 class="widget-title">Categories</h2>
+                    <ul>
+                        <li><a href="#">Fishing accessories</a></li>
+                        <li><a href="#">Fishing shopes</a></li>
+                        <li><a href="#">Fishing places</a></li>
+                        <li><a href="#">Fish stalls</a></li>
+                        <li><a href="#">Fishermen</a></li>
+                    </ul>
+                </div>
+               </div>
+
+                <div class="column">
+                    <div class="footer-widget information-widget">
+                    <h2 class="widget-title">Information</h2>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Contact us</a></li>
+                        <li><a href="#">Terms and condition</a></li>
+                        <li><a href="#">Delivery</a></li>
+                        <li><a href="#">Privacy and policy</a></li>
+                    </ul>
+                   </div>
+                </div>
+
+                <div class="column">
+                    <div class="footer-widget contact-widget">
+                        <h2 class="widget-title">Contact</h2>
+
+                        <div class="contact-address">
+                            <i class="fas fa-map-marker-alt"></i>Address: manikkatharayil Thripperumthura
+                        </div>
+
+                        <div class="contact-number">
+                            <i class="fas fa-phone-sqare-alt"> Phone : 9846686948</i>
+                        </div>
+                        
+                        <div class="contact-email">
+                            <i class="fas fa-envelope"></i>Email : nikhil@gmail.com
+                        </div>
+
+                        <div class="social-widget">
+                            <a href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a href="#"><i class="fab fa-google-plus-square"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube-square"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="copyright">
+            <div class="containerfoot">
+                <p>Copyright c <script type="text/javascript">document.write(new date().getfullyear());</script>
+                    2019 all rights reserved | Design made with <i class="fas fa-heart"></i> by <a href="#" target="_blank">Nikhil</a></p>
+                
+            </div>
+        </div>
+    </footer>
+
+	<script>
+		var x =document.getElementById("login");
+		var y =document.getElementById("register");
+		var z =document.getElementById("btn");
+		
+		function register(){
+			x.style.left = "-400px";
+			y.style.left = "50px";
+			z.style.left = "110px";
+			document.getElementById("form-box").style.height = "675px";
+		}
+		
+		function login(){
+			x.style.left = "50px";
+			y.style.left = "450px";
+			z.style.left = "0px";
+			document.getElementById("form-box").style.height = "480px";
+		}
+		
+	</script>
+</body>
+</html>
